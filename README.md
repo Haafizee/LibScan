@@ -63,9 +63,9 @@ Here are some screenshots of the application's various pages:
 2.Choose to Login Or SignUp 
 
 
-      ![Choose](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/c7c22392-492b-47e5-b6d9-306846acd0ed)
+   ![Choose](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/9d9cbea4-5ff4-4ffb-82b5-b2fa24fe2b9a)
 
-
+     
 3. Login Page
 
 
