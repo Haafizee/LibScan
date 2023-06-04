@@ -55,30 +55,37 @@ This is a library management Android application that allows users to easily man
 Here are some screenshots of the application's various pages:
 
 1. Start Page
-   ![Start Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/70a4189b-ec0b-46cb-9352-f84db2794fc7))
+   ![startpage](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/dbe82cbc-a56a-417b-bc4b-eea63de9e78d)
+
    
 2.Choose to Login Or SignUp 
-    ![Choose Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/a83620fe-f113-422b-a415-82c20e80bca4))
+   ![Choose](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/c7c22392-492b-47e5-b6d9-306846acd0ed)
+
 
 3. Login Page
-   ![Login Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/b8e97ea7-ef70-4619-9607-175c5bd93ca3))
+    ![Login](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/3c5d8c75-cf89-4599-ac18-3dc8b9f4c429)
+
 
 4. Signup Page
-   ![Signup Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/97c55479-b393-4558-8fe0-4a532c1ac8d4))
+   ![SignUp](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/cda32355-b3d1-464d-9aea-e6475b4357ed)
 
 5. User Dashboard
-   ![User Dashboard](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/5a9d27b5-9761-4695-8a8f-5bba3ecaad29))
+   ![GuestHome](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/b6e55fd2-eb62-47ff-a41b-c56b693233da)
+
 
 6. Book Details Page
-   ![Book Details Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/5e36dc8b-9889-4ce3-9cb0-ccb6e06417a6))
+     ![DisplayBook](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/973792b9-ac09-4415-9e59-9ab092319e25)
+
 
 7. Admin Dashboard
-   ![Admin Dashboard](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/6e625441-56ef-430d-9091-e01c96602d5a))
+    ![AdminHome](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/c596650f-c8cd-4ce5-9357-3d255d23dcbb)
+
 
 8. Add Book Page
-   ![Add Book Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/7a0614d0-24f2-43ed-b2b7-7649d9fafb8d))
+    ![AddBook](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/22d23976-5497-47ac-a4a0-9979c4a2cd59)
 
-9. Time Extension Requests Page![Requests](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/46ff5ff9-52a9-4669-9fc3-9a76b781b07a)
+9. Time Extension Requests Page
+    ![Requests](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/46ff5ff9-52a9-4669-9fc3-9a76b781b07a)
 
 ## Technologies Used
 
