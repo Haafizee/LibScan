@@ -56,28 +56,29 @@ Here are some screenshots of the application's various pages:
 
 1. Start Page
    ![Start Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/70a4189b-ec0b-46cb-9352-f84db2794fc7))
+   
 2.Choose to Login Or SignUp 
     ![Choose Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/a83620fe-f113-422b-a415-82c20e80bca4))
 
-2. Login Page
+3. Login Page
    ![Login Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/b8e97ea7-ef70-4619-9607-175c5bd93ca3))
 
-3. Signup Page
+4. Signup Page
    ![Signup Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/97c55479-b393-4558-8fe0-4a532c1ac8d4))
 
-4. User Dashboard
+5. User Dashboard
    ![User Dashboard](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/5a9d27b5-9761-4695-8a8f-5bba3ecaad29))
 
-5. Book Details Page
+6. Book Details Page
    ![Book Details Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/5e36dc8b-9889-4ce3-9cb0-ccb6e06417a6))
 
-6. Admin Dashboard
+7. Admin Dashboard
    ![Admin Dashboard](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/6e625441-56ef-430d-9091-e01c96602d5a))
 
-7. Add Book Page
+8. Add Book Page
    ![Add Book Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/7a0614d0-24f2-43ed-b2b7-7649d9fafb8d))
 
-8. Time Extension Requests Page
+9. Time Extension Requests Page
    ![Time Extension Requests Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/9ac8ffe9-5792-4f16-9386-d42b31eae90b))
 
 ## Technologies Used
