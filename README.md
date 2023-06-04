@@ -55,10 +55,14 @@ This is a library management Android application that allows users to easily man
 Here are some screenshots of the application's various pages:
 
 1. Start Page
+
+
    ![startpage](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/dbe82cbc-a56a-417b-bc4b-eea63de9e78d)
 
    
 2.Choose to Login Or SignUp 
+
+
    ![Choose](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/c7c22392-492b-47e5-b6d9-306846acd0ed)
 
 
@@ -67,24 +71,36 @@ Here are some screenshots of the application's various pages:
 
 
 4. Signup Page
+
+
    ![SignUp](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/cda32355-b3d1-464d-9aea-e6475b4357ed)
 
 5. User Dashboard
+
+
    ![GuestHome](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/b6e55fd2-eb62-47ff-a41b-c56b693233da)
 
 
 6. Book Details Page
+
+
      ![DisplayBook](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/973792b9-ac09-4415-9e59-9ab092319e25)
 
 
 7. Admin Dashboard
+
+
     ![AdminHome](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/c596650f-c8cd-4ce5-9357-3d255d23dcbb)
 
 
 8. Add Book Page
+
+
     ![AddBook](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/22d23976-5497-47ac-a4a0-9979c4a2cd59)
 
 9. Time Extension Requests Page
+
+
     ![Requests](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/46ff5ff9-52a9-4669-9fc3-9a76b781b07a)
 
 ## Technologies Used
