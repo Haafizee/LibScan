@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IssueBook"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+
+
+
+    <TextView
+        android:id="@+id/IssueBooktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ISSUE BOOK"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/issuebook"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:id="@+id/BookId"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:hint="Book Id"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/UserId"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:hint="User Id"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/issueBookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orangebutton"
+        android:layout_gravity="center"
+        android:text="ISSUE"
+        android:textColor="@color/white"/>
+
+
+    <ImageButton
+        android:id="@+id/IssueBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back"
+        android:layout_gravity="left"/>
+
+</LinearLayout>

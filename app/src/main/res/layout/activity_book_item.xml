@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".BookItem"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+        <ImageButton
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/book_cover"
+            android:background="@drawable/rounded_button_background"
+            android:scaleType="centerInside"
+            android:outlineProvider="background" />
+<Space
+    android:layout_width="20dp"
+    android:layout_height="10dp"/>
+
+
+</LinearLayout>

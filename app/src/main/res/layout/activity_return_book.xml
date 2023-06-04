@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReturnBook"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+    <TextView
+        android:id="@+id/ReturnBooktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="RETURN BOOK"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/returnimage"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:id="@+id/BookId"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:hint="Book Id"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/UserID"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:hint="User Id"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ReturnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orangebutton"
+        android:layout_gravity="center"
+        android:text="RETURN"
+        android:textColor="@color/white"/>
+
+
+    <ImageButton
+        android:id="@+id/ReturnBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back"
+        android:layout_gravity="left"/>
+
+</LinearLayout>

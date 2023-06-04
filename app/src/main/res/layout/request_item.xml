@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    tools:context=".UserItem"
+    android:background="@drawable/background_image"
+    android:gravity="center_vertical">
+
+    <Space
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="95dp"
+        android:layout_height="87dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/request1" />
+
+
+    <Space
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/UserId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="User ID : NoBody"
+            android:textColor="@color/white" />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:id="@+id/BookId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Book ID: "
+            android:textColor="@color/white" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <ImageButton
+                android:id="@+id/Accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:src="@drawable/accept"
+                android:layout_gravity="left"/>
+            <Space
+                android:layout_width="80dp"
+                android:layout_height="30dp"/>
+            <ImageButton
+                android:id="@+id/Reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:src="@drawable/reject"
+                android:layout_gravity="left"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>

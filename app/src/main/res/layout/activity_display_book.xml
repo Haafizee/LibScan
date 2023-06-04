@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayBook"
+    android:background="@drawable/background_image"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/BookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:gravity="top|center"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/BookIdDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Book ID"
+        android:textColor="@color/white"
+        android:textSize="17sp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <ImageView
+        android:id="@+id/BookImageDisplay"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/book_cover" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/BookCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="category"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/BookUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Units"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"> <!-- Set the desired fixed height here -->
+
+        <TextView
+            android:id="@+id/BookDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="15"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideInset"
+            android:text="Description"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+    </ScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="end">
+
+    <ImageButton
+        android:id="@+id/DisplayRemoveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="#00FFFFFF"
+        android:src="@drawable/delete"
+        android:textColor="@color/white" />
+    <ImageButton
+        android:id="@+id/DisplayReissueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="#00FFFFFF"
+        android:src="@drawable/reissue"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageButton
+        android:id="@+id/DisplayBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back"
+        android:layout_gravity="left"/>
+
+
+
+</LinearLayout>

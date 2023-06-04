@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Library Management System</string>
+    <string name="title_activity_user_item">UserItem</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <array name="Categories">
+        <item>Educational</item>
+        <item>Horror</item>
+        <item>Romance</item>
+        <item>Thriller</item>
+        <item>Historical</item>
+        <item>Fiction</item>
+    </array>
+
+    <string name="title_activity_display_book">DisplayBook</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBook"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+
+
+
+    <TextView
+        android:id="@+id/addBooktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Book"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+
+    <ImageView
+        android:id="@+id/SelectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/addbook_image" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+
+    <EditText
+        android:id="@+id/AuthorName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:hint="Author Name"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton"
+        android:layout_gravity="center"
+        android:hint="Title"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+
+    <EditText
+        android:id="@+id/BookID"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:hint="Book ID"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"> <!-- Set the desired fixed height here -->
+
+        <EditText
+            android:background="@drawable/roundbutton"
+            android:id="@+id/Description"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="15"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:hint="Description"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+           />
+    </ScrollView>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:id="@+id/Catergorytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="CATEGORY"
+            android:layout_weight="1"
+            android:textColor="@color/white" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"/>
+
+        <Spinner
+
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/Categories"
+            android:background="@color/white"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="70dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/NoOfUnits"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:hint="Number Of Units"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addBookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orangebutton"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:textColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/AddBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back"
+        android:layout_gravity="left"/>
+
+
+</LinearLayout>
