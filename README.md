@@ -79,7 +79,7 @@ Here are some screenshots of the application's various pages:
    ![Add Book Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/7a0614d0-24f2-43ed-b2b7-7649d9fafb8d))
 
 9. Time Extension Requests Page
-   ![Time Extension Requests Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/9ac8ffe9-5792-4f16-9386-d42b31eae90b))
+   ![Time Extension Requests Page](![image](https://github.com/NadaKhaledMazen/Library_Management_Application/assets/105931027/525bdcad-091b-41dc-9d71-bfa03d9e6eb2))
 
 ## Technologies Used
 
